@@ -1,0 +1,179 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+/* Elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.75rem;
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 0.7rem;
+  font-family: "Montserrat";
+}
+
+/*Title Page */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 7% 15%;
+}
+
+/* ..buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* ..image */
+.iphone {
+  width: 30%;
+  transform: rotate(25deg);
+  z-index: 0;
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.icons-features {
+  color: #ef8172;
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+.icons-features:hover {
+  color: #ff4c68;
+}
+/* ..container */
+.yep {
+  text-align: center;
+}
+
+/* Testomonial */
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testi-img {
+  width: 10%;
+  border-radius: 100%;
+}
+/* ..carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+/* Sponzors */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+}
+
+/* ..buttons */
+.butt {
+  width: 100%;
+  background-color: #ff4c68;
+  border: 1px solid black;
+  color: white;
+}
+
+.butt:hover {
+  background-color: rgb(49, 48, 48);
+  border: 1px solid rgb(49, 48, 48);
+}
+/* CTA  */
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+}
+
+#elementcta {
+  color: white;
+  margin-bottom: 60px;
+}
+/* ..buttons */
+.okbtn {
+  margin: 2%;
+}
+/* Footer */
+#footer {
+  background-color: white;
+  padding: 20px;
+}
+
+.fa-brands,
+.fa-solids {
+  margin: 10px;
+  font-size: smaller;
+}
