@@ -13,11 +13,11 @@ h6 {
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   color: #8f8f8f;
 }
 
@@ -89,7 +89,7 @@ p {
 
 .icons-features {
   color: #ef8172;
-  font-size: 2em;
+  font-size: 4em;
   margin-bottom: 5%;
 }
 
@@ -176,4 +176,8 @@ p {
 .fa-solids {
   margin: 10px;
   font-size: smaller;
+}
+
+.signature {
+  font-size: 0.8rem;
 }
